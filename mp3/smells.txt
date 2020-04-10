@@ -1,0 +1,4 @@
+1. This is an example of the "Duplicated Code" code smell. We can apply the "Extract Method" refactoring option to remove the repeat statements.
+2. (No specific response required)
+3. Since this method does not seem to belong naturally in the "Nodes" class, we can say that it probably suffers from the "non-localized plan" smell. This can be fixed by moving it to where it belongs, in this case, the "jenkins.model.Jenkins" class.
+4. The code from lines 249-254 were repeated four times in a row, word for word. In this situation, it made sense to simply put those repeated blocks of code into a loop that ran four times.
