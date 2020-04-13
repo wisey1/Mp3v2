@@ -2,3 +2,5 @@
 2. (No specific response required)
 3. Since this method does not seem to belong naturally in the "Nodes" class, we can say that it probably suffers from the "non-localized plan" smell. This can be fixed by moving it to where it belongs, in this case, the "jenkins.model.Jenkins" class.
 4. The code from lines 249-254 were repeated four times in a row, word for word. In this situation, it made sense to simply put those repeated blocks of code into a loop that ran four times.
+5. (No response Required)
+6.In the file RunParameterDefinitionTest.java there are 2 lines which are repeated 4 times, this code could be eliminated by applying the extract method refactoring tool after first applying the extract local variable method on each repeated segments .replaceBy() call 
